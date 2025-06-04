@@ -18,11 +18,11 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <h1>Книга контактів</h1>
+      <h1>Contact List </h1>
       <ContactForm />
       <SearchBox />
-      {loading && <p>Завантаження...</p>}
-      {error && <p>Помилка: {error}</p>}
+      {loading && <p>Loading...</p>}
+      {error && <p>Error: {error}</p>}
       <ContactList />
     </div>
   );
