@@ -23,17 +23,17 @@ function ContactForm() {
         type="text"
         value={name}
         onChange={e => setName(e.target.value)}
-        placeholder="Ім'я"
+        placeholder="Name"
         required
       />
       <input
         type="tel"
         value={number}
         onChange={e => setNumber(e.target.value)}
-        placeholder="Номер телефону"
+        placeholder="Phone number"
         required
       />
-      <button type="submit">Додати контакт</button>
+      <button type="submit">Add Contact</button>
     </form>
   );
 }
